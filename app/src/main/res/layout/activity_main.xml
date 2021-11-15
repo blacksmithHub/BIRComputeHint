@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.torres.edgar.bircomputehint.MainActivity"
+    android:weightSum="1">
+
+    <Spinner
+        android:id="@+id/spinnerPeriod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:spinnerMode="dialog" />
+
+    <Spinner
+        android:id="@+id/spinnerStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:spinnerMode="dialog" />
+
+    <EditText
+        android:id="@+id/textGrossIncome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:ems="10"
+        android:hint="Gross Income"
+        android:inputType="numberDecimal"
+        android:textColor="@color/colorStatus"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textSSS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:ems="10"
+
+        android:inputType="numberDecimal"
+        android:textColor="@color/colorStatus"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textPhilHealth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:ems="10"
+
+        android:inputType="numberDecimal"
+        android:textColor="@color/colorStatus"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textPagibig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:ems="10"
+
+        android:inputType="numberDecimal"
+        android:textColor="@color/colorStatus"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/texttaxIncome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="Taxable Income"
+        android:inputType="numberDecimal"
+        android:textColor="@color/colorStatus"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textFirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:text="TextView"
+        android:textColor="@color/colorStatus"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textPercent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:text="TextView"
+        android:textColor="@color/colorStatus"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textOver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:text="TextView"
+        android:textColor="@color/colorStatus"
+        android:textSize="24sp" />
+    <TextView
+        android:id="@+id/textWithholding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:text="TextView"
+        android:textColor="@color/colorStatus"
+        android:textSize="24sp" />
+</LinearLayout>
